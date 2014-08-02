@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	/*cursor: url("../img/cursor.png"), pointer;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FONT */
+h1,h2,h3,h5,h6,p,a{
+	font-family:'Droid Sans', sans-serif;
+	letter-spacing: 0.2em;
+}
+
+h1{
+	font-size: 1.5rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+h2{
+	font-size: 1.2rem;
+	font-weight: lighter;
+	opacity: 0.3;
+	margin-top: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*SCROLL BAR*/
+/*::-webkit-scrollbar {  
+    width: 15px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: #fff;   
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #e1f6f5;     
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #f6e1e1;   
+} */
+
+/* WRAPPER */
+#wrapper{
+	padding: 15px;
+}
+
+/* MENU */
+#menu{
+	background-color: #e1f6f5;
+	text-align: center;
+	padding: 5px 0;
+	display: none;
+}
+
+#menu a{
+	opacity: 0.3;
+}
+
+#menu li{
+	padding: 15px 0;
+}
+
+/* BTN MENU */
+#btn_menu{
+	margin: 0 auto;
+	width: 290px;
+	background-color: #e1f6f5;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#menu_button{
+	font-family: 'Droid Sans', sans-serif;
+	letter-spacing: 0.2em;
+}
+
+hr{
+	width: 50%;
+	color: #000;
+	opacity: 0.05;	
+}
+
+/* CONTENT */
+#content{
+	width: 100%;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+#tagline{
+	padding-top: 7%;
+}
+
+#icon_content{
+	padding: 5%;
+}
+
+.icon{
+	margin: 15px;
+}
+
+/* WEB */
+
+.icon_cat{
+	padding-top: 5%;
+}
+
+.thumb_content{
+	padding-top: 5%;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.thumb{
+	margin: 1% 3%;
+}
