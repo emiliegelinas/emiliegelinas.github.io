@@ -104,6 +104,14 @@ a{
 
 #menu li{
 	padding: 15px 0;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+#menu li:hover{
+	opacity: 0.5;
 }
 
 /* BTN MENU */
@@ -129,7 +137,7 @@ hr{
 /* CONTENT */
 #content{
 	width: 100%;
-	background-color: #fafafa;
+	background-color: #fff;
 	text-align: center;
 }
 
@@ -155,8 +163,35 @@ hr{
 	padding-top: 5%;
 	margin: 0 auto;
 	width: 70%;
+	display: inline-block;
 }
 
 .thumb{
 	margin: 1% 3%;
+}
+
+.levitate{
+	display: inline-block;
+	-webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.levitate:hover {
+	-webkit-transform: translate(0,-1rem);
+    -moz-transform: translate(0,-1rem);
+    -o-transform: translate(0,-1rem);
+    -ms-transform: translate(0,-1rem);
+    transform: translate(0,-1rem);
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   /*height:30px;*/
+   width:100%;
+   padding: 15px;
+   /*background:#999;*/
 }
