@@ -46,7 +46,7 @@ table {
 	border-spacing: 0;
 }
 
-/* FONT */
+/* ============== FONTS ============== */
 h1,h2,h3,h5,h6,p,a{
 	font-family:'Droid Sans', sans-serif;
 	letter-spacing: 0.2em;
@@ -56,14 +56,14 @@ h1{
 	font-size: 1.5rem;
 	font-weight: lighter;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 1.5rem;
 }
 
 h2{
 	font-size: 1.2rem;
 	font-weight: lighter;
 	opacity: 0.3;
-	margin-top: 10px;
+	margin-top: 0.5rem;
 }
 
 a{
@@ -85,19 +85,18 @@ a{
     background-color: #FFDBDB;   
 } */
 
-/* WRAPPER */
-#wrapper{
-	padding-top: 15px;
+
+/* ============== MENU ============== */
+#bloc_deco{
 	width: 100%;
-	margin: 0 auto;
-	background-color: #DBFFFD;	
+	height: 1rem;
+	background-color: #DBFFFD;
 }
 
-/* MENU */
 #menu{
 	background-color: #DBFFFD;
 	text-align: center;
-	padding: 5px 0;
+	padding: 1rem 0;
 	display: none;
 }
 
@@ -106,7 +105,7 @@ a{
 }
 
 #menu li{
-	padding: 20px 0;
+	padding: 1.1rem 0;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
  	-o-transition: all 0.2s ease-in-out;
@@ -125,10 +124,10 @@ a{
 /* BTN MENU */
 #btn_menu{
 	margin: 0 auto;
-	width: 290px;
+	width: 25rem;
 	background-color: rgb(219, 255, 253);
 	text-align: center;
-	padding: 20px 0;
+	padding: 1.3rem 0;
 }
 
 #btn_menu:hover{
@@ -148,7 +147,7 @@ hr{
 	margin-bottom: 0;
 }
 
-/* CONTENT */
+/* ============== CONTENT ============== */
 #content{
 	width: 100%;
 	background-color: #fff;
@@ -156,53 +155,37 @@ hr{
 }
 
 #tagline{
-	padding-top: 7%;
+	padding-top: 8rem;
 }
 
 #icon_content{
-	padding: 5%;
+	padding: 5rem 0;
 	overflow: hidden;
 	clear: both;
 	margin: 0 auto;
-	width: 390px;
+	width: 25rem;
 }
 
 .icon{
-	margin: 3%;
+	margin: 0.75rem;
 	display: inline-block;
-	-webkit-transition: all 0.25s ease-in-out;
-	-moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-  	transition: all 0.25s ease-in-out;
 }
 
-.icon:hover{
-  	-webkit-transform: translatey(-20px); 
-  	-moz-transform: translatey(-20px); 
-  	-o-transform: translatey(-20px); 
-  	transform: translatey(-20px);
+#text_icon{
+	padding-top: 2rem;
+	display: none;
 }
 
-/* FOOTER */
-footer{
-	position: fixed;
-	bottom: 0px;
-}
 
-#logo_footer{
-	padding: 20px;
-	width: 30px;
-}
-
-/* SECTION DESIGN WEB */
+/* ============== SECTION DESIGN WEB ============== */
 
 .icon_cat{
-	padding-top: 5%;
+	padding-top: 8rem;
 }
 
 .thumb_content{
 	width: 60%;
-	padding: 5% 0;
+	padding: 5rem 0;
 	margin: 0 auto;
 	overflow: hidden;
 
@@ -214,10 +197,10 @@ footer{
 .thumb{
 	margin: 1% 3%;
 	display: inline-block;
-	-webkit-transition: all 0.25s ease-in-out;
-	-moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-  	transition: all 0.25s ease-in-out;	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out;	
 }
 
 .thumb p{
@@ -227,27 +210,26 @@ footer{
 
 .levitate{
 	display: inline-block;
-	-webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+	-webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .levitate:hover {
-	-webkit-transform: translate(0,-1rem);
-    -moz-transform: translate(0,-1rem);
-    -o-transform: translate(0,-1rem);
-    -ms-transform: translate(0,-1rem);
-    transform: translate(0,-1rem);
+	-webkit-transform: translate(0,-1.5rem);
+    -moz-transform: translate(0,-1.5rem);
+    -o-transform: translate(0,-1.5rem);
+    -ms-transform: translate(0,-1.5rem);
+    transform: translate(0,-1.5rem);
 }
 
+/* ============== FOOTER ============== */
 #footer {
    position:fixed;
-   left:0px;
-   bottom:0px;
-   /*height:30px;*/
-   width:100%;
-   padding: 15px;
-   /*background:#999;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 1rem;
 }
 
