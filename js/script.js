@@ -6,9 +6,9 @@ $(document).ready(function(){
 	/* ============== Menu ============== */
 	$("#btn_menu").click(function () {
 		$("#menu").slideToggle(1000);
-		//$('#menu').css("background-color", hue);
+		/*$('#menu').css("background-color", hue);
 		
-		/*if (!bool_toggle) {
+		if (!bool_toggle) {
 			clearInterval(timer);
 			bool_toggle = true;
 		}else {
@@ -17,7 +17,7 @@ $(document).ready(function(){
 		};*/
 	});
 
-	/* ============== Icons hover ============== */
+	/* ============== Text icons hover ============== */
 	$(".icon").mouseover(function (){
 		$("#text_icon").fadeIn(1);
 	});	
@@ -38,13 +38,39 @@ $(document).ready(function(){
 		$("#text_icon").html('illustration');
 	});	
 
+	/* ============== Icons hover ============== */
+	$("#icon_web").hover(function (){
+		$("#icon_web").attr("src","img/web_icon_over.png");
+	});
+
+	$("#icon_web").mouseout(function (){
+		$("#icon_web").attr("src","img/web_icon.png");
+	});
+
+	$("#icon_graphic").hover(function (){
+		$("#icon_graphic").attr("src","img/graphic_icon_over.png");
+	});
+
+	$("#icon_graphic").mouseout(function (){
+		$("#icon_graphic").attr("src","img/graphic_icon.png");
+	});
+
+	$("#icon_illustration").hover(function (){
+		$("#icon_illustration").attr("src","img/illustration_icon_over.png");
+	});
+
+	$("#icon_illustration").mouseout(function (){
+		$("#icon_illustration").attr("src","img/illustration_icon.png");
+	});	
+
+
 	/* ============== Change menu text ============== */
 	function changeText(){
 		$("#menu_button").text(function(_, oldText) {
-	 	return oldText === 'FERMER' ? 'MENU' : 'FERMER';
-	});
-
+	 		return oldText === 'FERMER' ? 'MENU' : 'FERMER';
+		});
 	}
+
 	/* ============== Spectrum ============== */
 	/*
 	function spectrum(){
