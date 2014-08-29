@@ -1,12 +1,13 @@
 $(document).ready(function(){ 
-/*	var timer = setInterval(function(){spectrum()},1200);
+	var timer = setInterval(function(){spectrum()},1200);
 	var hue = 0;
-	var bool_toggle = false;*/	
+	var bool_toggle = false;
 
 	/* ============== Menu ============== */
 	$("#btn_menu").click(function () {
-		$("#menu").slideToggle(1000);
-		/*$('#menu').css("background-color", hue);
+		changeText();
+		$("#menu").slideToggle(600);
+		$('#menu').css("background-color", hue);
 		
 		if (!bool_toggle) {
 			clearInterval(timer);
@@ -14,8 +15,15 @@ $(document).ready(function(){
 		}else {
 			timer = setInterval(function(){spectrum()},1200);
 			bool_toggle = false;
-		};*/
+		};
 	});
+
+	/* ============== Change menu text ============== */
+	function changeText(){
+		$("#menu_button").text(function(_, oldText) {
+	 		return oldText === 'FERMER' ? 'MENU' : 'FERMER';
+		});
+	}
 
 	/* ============== Text icons hover ============== */
 	$(".icon").mouseover(function (){
@@ -64,17 +72,11 @@ $(document).ready(function(){
 	});	
 
 
-	/* ============== Change menu text ============== */
-	function changeText(){
-		$("#menu_button").text(function(_, oldText) {
-	 		return oldText === 'FERMER' ? 'MENU' : 'FERMER';
-		});
-	}
 
 	/* ============== Spectrum ============== */
-	/*
+	
 	function spectrum(){
 		hue = 'rgb(' + 251 + ',' + 200 + ',' + (Math.floor(Math.random() * 256)) + ')';
-		$('.polymorph').animate( { backgroundColor: hue }, 1000);
-	}*/
+		$('.polymorph').animate( { backgroundColor: hue }, 10000);
+	}
 });
