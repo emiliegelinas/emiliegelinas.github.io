@@ -1,7 +1,7 @@
 $(document).ready(function(){ 
-	var timer = setInterval(function(){spectrum()},1200);
+/*	var timer = setInterval(function(){spectrum()},1200);
 	var hue = 0;
-	var bool_toggle = false;
+	var bool_toggle = false;*/
 
 	/* ============== Menu ============== */
 	$("#btn_menu").click(function () {
@@ -75,8 +75,8 @@ $(document).ready(function(){
 
 	/* ============== Spectrum ============== */
 	
-	function spectrum(){
+	/*function spectrum(){
 		hue = 'rgb(' + 251 + ',' + 200 + ',' + (Math.floor(Math.random() * 256)) + ')';
 		$('.polymorph').animate( { backgroundColor: hue }, 10000);
-	}
+	}*/
 });

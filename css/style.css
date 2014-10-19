@@ -90,48 +90,52 @@ a{
 #bloc_deco{
 	width: 100%;
 	height: 20px;
-	background-color: #DBFFFD;
+	background-color: #262626;
 }
 
 #menu{
-	background-color: #DBFFFD;
+	background-color: #262626;
 	text-align: center;
 	display: none;
 }
 
 #menu a{
-	opacity: 0.5;
+	color: #fff;
 	font-size: 0.8rem;
+	-webkit-transition: all 0.175s ease-in-out;
+  	-moz-transition: all 0.175s ease-in-out;
+ 	-o-transition: all 0.175s ease-in-out;
+  	transition: all 0.175s ease-in-out;	
+}
+
+#menu a:hover{
+	color: #fff;
+	-webkit-transition: all 0.175s ease-in-out;
+  	-moz-transition: all 0.175s ease-in-out;
+ 	-o-transition: all 0.175s ease-in-out;
+  	transition: all 0.175s ease-in-out;	
 }
 
 #menu li{
 	padding: 20px 0;
-	-webkit-transition: all 0.175s ease-in-out;
-  	-moz-transition: all 0.175s ease-in-out;
- 	-o-transition: all 0.175s ease-in-out;
-  	transition: all 0.175s ease-in-out;
 }
 
 #menu li:hover{
-	background-color: #fff;
-	opacity: 0.3;
-	-webkit-transition: all 0.175s ease-in-out;
-	-moz-transition: all 0.175s ease-in-out;
-  	-o-transition: all 0.175s ease-in-out;
-  	transition: all 0.175s ease-in-out;
+	background-image: url(../img/pattern.gif);
 }
 
 /* BTN MENU */
 #btn_menu{
 	margin: 0 auto;
 	width: 320px;
-	background-color: rgb(219, 255, 253);
+	background-color: #262626;
 	text-align: center;
 	padding: 20px 0;
 }
 
 #btn_menu:hover{
 	cursor: pointer;
+	background-image: url(../img/pattern.gif);
 }
 
 #btn_menu a{
@@ -141,11 +145,16 @@ a{
 #menu_button{
 	font-family: 'Droid Sans', sans-serif;
 	letter-spacing: 0.2em;
+	color: #fff;
+	-webkit-transition: all 0.175s ease-in-out;
+  	-moz-transition: all 0.175s ease-in-out;
+ 	-o-transition: all 0.175s ease-in-out;
+  	transition: all 0.175s ease-in-out;		
 }
 
 hr{
 	width: 50%;
-	color: #000;
+	color: #fff;
 	opacity: 0.1;	
 	margin-top: 0;
 	margin-bottom: 0;
@@ -155,6 +164,7 @@ hr{
 #content{
 	width: 100%;
 	background-color: #fff;
+	background-image: url(../img/bg.png);
 	text-align: center;
 }
 
@@ -291,7 +301,7 @@ hr{
 .retour a{							
 	font-size: 0.8rem;
 	margin-top: 20px;
-	background-color: #000;
+	background-color: #262626;
 	color: #fff;
 	padding: 20px;
 	-webkit-transition: all 0.175s ease-in-out;
@@ -303,7 +313,7 @@ hr{
 .retour a:hover{							
 	background-color: #fff;
 	color: #000;
-	border: 3px solid #000;
+	border: 3px solid #262626;
 	-webkit-transition: all 0.175s ease-in-out;
 	-moz-transition: all 0.175s ease-in-out;
   	-o-transition: all 0.175s ease-in-out;
@@ -325,6 +335,5 @@ hr{
 }
 
 #footer img{
-	background-color: #DBFFFD;
 	padding: 10px 20px;
 }
